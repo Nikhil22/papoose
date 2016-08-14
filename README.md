@@ -27,12 +27,18 @@ A function that pipes the results of one function to the next
     }
   </pre>
 
+  <li>Instantiate a Pony object</li>
+
+  <pre>
+    var pony = new Pony();
+  </pre>
+
   <li>
     Invoke <strong>pipe</strong> by passing in all your functions as arguments. Note: These functions execute in the order you pass them
   </li>
 
   <pre>
-    var pipeFn = pipe(foo, bar, baz);
+    var pipeFn = pony.pipe(foo, bar, baz);
   </pre>
 
   <li>Invoke the function returned from the step above by passing in the arguments you'd want to start off the pipe process with. Note: These arguments are used by the first function in step 2 above

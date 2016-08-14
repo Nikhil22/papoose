@@ -1,15 +1,29 @@
-function pipe() {
+(function(global) {
 
-  var fns = arguments;
+  function Pony() {
 
-  return function() {
+  }
 
-    var result = fns[0].apply(this, arguments);
-    for (var i = 1; i < fns.length; i++) {
-      result = fns[i](result);
+  Pony.prototype = {
+
+    pipe: function() {
+
+      var fns = arguments;
+
+      return function() {
+
+        var result = fns[0].apply(this, arguments);
+        for (var i = 1; i < fns.length; i++) {
+          result = fns[i](result);
+        }
+
+        return result;
+      };
+
     }
+  }
 
-    return result;
-  };
-  
-}
+
+  global.Pony = Pony;
+
+})(window);
