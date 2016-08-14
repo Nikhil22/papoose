@@ -1,6 +1,6 @@
 function pipe() {
 
-	var fns = arguments;
+  var fns = arguments;
 
   return function() {
 
@@ -10,6 +10,6 @@ function pipe() {
     }
 
     return result;
-	};
+  };
   
 }
