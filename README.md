@@ -10,7 +10,9 @@ A function that pipes the results of one function to the next
 
 <li>Require the Papoose module</li>
 <pre>
+  <code>
   var papoose = require('papoose');
+  </code>
 </pre>
 
 <li>
@@ -40,17 +42,27 @@ A function that pipes the results of one function to the next
 </li>
 
 <pre>
+  <code>
   var pipeFn = papoose.pipe(foo, bar, baz);
+  </code>
 </pre>
 
 <li>Invoke the function returned from the step above by passing in the arguments you'd want to start off the pipe process with. Note: These arguments are used by the first function in the step above, and the result is piped to the subsequent function.
 
-<pre>pipeFn(1,2,3);</pre>
+<pre><code>pipeFn(1,2,3);</code></pre>
 
 </ol>
 
 <h2>Usage (browser)</h2>
 <ol>
+
+<li>Instantiate a Papoose object</li>
+
+<pre>
+  <code>
+  var papoose = new Papoose();
+  </code>
+</pre>
 
   <li>
     Set up the functions that you wish to use (example)
@@ -59,6 +71,7 @@ A function that pipes the results of one function to the next
   <br>
 
   <pre>
+    <code>
     function foo(a, b, c) {
       return a + b + c;
     }
@@ -70,12 +83,7 @@ A function that pipes the results of one function to the next
     function baz(a) {
       return a - 1;
     }
-  </pre>
-
-  <li>Instantiate a Papoose object</li>
-
-  <pre>
-    var papoose = new Papoose();
+    </code>
   </pre>
 
   <li>
@@ -83,10 +91,12 @@ A function that pipes the results of one function to the next
   </li>
 
   <pre>
+    <code>
     var pipeFn = papoose.pipe(foo, bar, baz);
+    </code>
   </pre>
 
   <li>Invoke the function returned from the step above by passing in the arguments you'd want to start off the pipe process with. Note: These arguments are used by the first function in the step above, and the result is piped to the subsequent function.
 
-  <pre>pipeFn(1,2,3);</pre>
+  <pre><code>pipeFn(1,2,3);</code></pre>
 </ol>
