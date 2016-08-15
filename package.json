@@ -1,6 +1,6 @@
 {
   "name": "papoose",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple function that allows you to pipe the results of one function to a series of other functions",
   "main": "index.js",
   "directories": {
