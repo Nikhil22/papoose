@@ -1,0 +1,22 @@
+{
+  "name": "papoose",
+  "version": "1.0.0",
+  "description": "This is a simple function that allows you to pipe the results of one function to a series of other functions",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikhil22/pony.git"
+  },
+  "author": "Nikhil Bhaskar <nikhil38@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikhil22/pony/issues"
+  },
+  "homepage": "https://github.com/Nikhil22/pony#readme"
+}

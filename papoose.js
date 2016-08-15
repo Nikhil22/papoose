@@ -1,10 +1,10 @@
 (function(global) {
 
-  function Pony() {
+  function Papoose() {
 
   }
 
-  Pony.prototype = {
+  Papoose.prototype = {
 
     pipe: function() {
 
@@ -24,6 +24,6 @@
   }
 
 
-  global.Pony = Pony;
+  global.Papoose = Papoose;
 
 })(window);

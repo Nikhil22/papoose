@@ -1,4 +1,4 @@
-# pony
+# papoose
 
 <h2>What is it?</h2>
 
@@ -27,10 +27,10 @@ A function that pipes the results of one function to the next
     }
   </pre>
 
-  <li>Instantiate a Pony object</li>
+  <li>Instantiate a Papoose object</li>
 
   <pre>
-    var pony = new Pony();
+    var papoose = new Papoose();
   </pre>
 
   <li>
@@ -38,7 +38,7 @@ A function that pipes the results of one function to the next
   </li>
 
   <pre>
-    var pipeFn = pony.pipe(foo, bar, baz);
+    var pipeFn = papoose.pipe(foo, bar, baz);
   </pre>
 
   <li>Invoke the function returned from the step above by passing in the arguments you'd want to start off the pipe process with. Note: These arguments are used by the first function in step 2 above
