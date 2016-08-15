@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nikhil22/pony.git"
+    "url": "git+https://github.com/Nikhil22/papoose.git"
   },
   "author": "Nikhil Bhaskar <nikhil38@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nikhil22/pony/issues"
+    "url": "https://github.com/Nikhil22/papoose/issues"
   },
-  "homepage": "https://github.com/Nikhil22/pony#readme"
+  "homepage": "https://github.com/Nikhil22/papoose#readme"
 }
