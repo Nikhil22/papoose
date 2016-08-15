@@ -41,7 +41,7 @@ A function that pipes the results of one function to the next
     var pipeFn = pony.pipe(foo, bar, baz);
   </pre>
 
-  <li>Invoke the function returned from the step above by passing in the arguments you'd want to start off the pipe process with. Note: These arguments are used by the first function in step 2 above
+  <li>Invoke the function returned from the step above by passing in the arguments you'd want to start off the pipe process with. Note: These arguments are used by the first function in step 2 above, and the result is piped to the subsequent function.
 
   <pre>pipeFn(1,2,3);</pre>
 </ol>
